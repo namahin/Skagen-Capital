@@ -1,0 +1,128 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 480px) {
+    header {
+        margin-top: 20px;
+    }
+
+    .slider-contant h2 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+
+    }
+
+    .contact-btn {
+        width: 100px;
+        top: 12px;
+    }
+
+    .font-size-sm h2 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+
+    }
+
+    .brand-logo a,
+    .brand-logo a b {
+        font-size: 20px !important;
+        ;
+        line-height: 29px;
+    }
+
+    .contact-btn a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .slider ul li {
+
+        background-size: 450px !important;
+    }
+}
+
+@media (max-width: 639.98px) {
+    .slider-contant {
+        top: 250px;
+    }
+
+    .contact-sec hr {
+        width: 100%;
+    }
+
+    .mb-lg {
+        margin-bottom: 0;
+    }
+
+    .contact-item p br {
+        display: none;
+    }
+
+    .slider-contant h2 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .contact-btn {}
+
+    .brand-logo a {
+        font-size: 30px;
+    }
+
+    .brand-logo b {
+        font-size: 30px !important;
+    }
+
+    .contact-sec h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .contact-title p {
+        font-size: 20px;
+    }
+
+    .contact-item i {
+        font-size: 18px;
+        top: 1px;
+    }
+
+    .contact-item p {
+        font-size: 15px;
+    }
+
+    .location {
+        font-size: 23px !important;
+        top: 0px !important;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .font-size-sm h2 {}
+
+    .slider ul li {
+        background-position: bottom right;
+        background-size: contain;
+    }
+
+    .slider-contant {
+        position: relative !important;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .slider-contant {
+        width: auto;
+    }
+
+    .slider-contant h2 {}
+
+    .font-size-sm h2 {}
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .dotnav-position {
+        bottom: 120px;
+    }
+}
